@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+        <div class="logo">
+            <h1 class="logoH">FNTR</h1>
+        </div>
+        <div class="main_list" id="mainListDiv">
+            <ul class="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li id="services" onclick="menuShow()">Services</li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main">
+        <span id="servicesMenu" onclick="menuHide()">
+            <li id="serviceLink"><a href="#">Shop</a></li>
+            <li id="serviceLink"><a href="#">History</a></li>
+            <li id="serviceLink"><a href="#">Challenges</a></li>
+        </span>
+
+        <div class="stats-search">
+            <label for="nicknameInput" class="mainInputLabel">CHECK YOUR FORTNITE STATS</label>
+            <input type="text" class="nicknameInput" placeholder="Enter your EPIC nickname..." id="gamertag">
+            <div class="button">
+            <button class="submitButton">G0</button>
+        </div>
+            <div class="selectPlatform">
+                <select class="custom-select" id="platform">
+                    <option selected id="choosePlatform">Choose Platform</option>
+                    <option value="pc">pc</option>
+                    <option value="xbox">xbox</option>
+                    <option value="psn">psn</option>
+                </select>
+            </div>
+        </div>
+        <div class="result"></div>
+    </div>
+
+    <div class="block-left">
+        <div class="f">F</div>
+        <div class="o">O</div>
+        <div class="r">R</div>
+        <div class="t">T</div>
+        <div class="n">N</div>
+        <div class="i">I</div>
+        <div class="t">T</div>
+        <div class="e">E</div>
+    </div>
+
+    <div class="block-right">
+        <div class="f">F</div>
+        <div class="o">O</div>
+        <div class="r">R</div>
+        <div class="t">T</div>
+        <div class="n">N</div>
+        <div class="i">I</div>
+        <div class="t">T</div>
+        <div class="e">E</div>
+    </div>
+
+    <div class="footer">
+        <p id="copyright">&copy; Copyright 2020</p>
+        <div class="icons"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
