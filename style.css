@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav {
+    background: black;
+    height: 65px;
+}
+
+.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3em;
+}
+
+.logoH {
+    font-family: 'Burbank';
+    font-size: 64px;
+    color: white;
+}
+
+.main_list {
+    float: right;
+    height: 65px;
+}
+
+.navLinks {
+    display: flex;
+    width: 100%;
+    height: 65px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navLinks>li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+    padding-right: 6rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    line-height: 65px;
+    font-family: 'Burbank';
+    font-size: 28px;
+}
+
+#services {
+    color: white;
+    line-height: 65px;
+    cursor: default;
+    font-family: 'Burbank';
+    font-size: 28px;
+}
+
+#servicesMenu {
+    background-clip: padding-box;
+    box-sizing: border-box;
+    z-index: 100;
+    position: fixed;
+    color: white;
+    display: block;
+    width: 200px;
+    height: 215px;
+    top: -225px;
+    right: 14.5%;
+    background: red;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: all ease 1s;
+    margin-left: 87%;
+    list-style: none;
+}
+
+#serviceLink {
+    margin-left: 30px;
+    margin-top: 5px;
+    font-family: 'Burbank';
+    font-size: 22px;
+}
+
+.main {
+    background: url(/images/bg1.jpg);
+    width: 75%;
+    height: 90%;
+    position: absolute;
+    left: 12.4%;
+    text-align: center;
+}
+
+.stats-search {
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    height: 50%;
+    transition: all ease 1s;
+}
+
+.nicknameInput {
+    position: relative;
+    height: 15%;
+    display: flex;
+    padding-left: 20px;
+    width: 50%;
+    color: black;
+    outline: none;
+    margin-top: 15%;
+    margin-left: 25%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+
+.mainInputLabel {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    font-family: 'Burbank';
+    font-size: 44px;
+    color: white;
+}
+
+.selectPlatform {
+    position: absolute;
+    left: 58.5%;
+    top: 49.5%;
+    display: block;
+    height: 15%;
+    outline: none;
+}
+
+#platform {
+    position: relative;
+    height: 100%;
+    border: none;
+    background: rgb(241, 245, 0);
+    font-family: 'Burbank';
+    font-size: 19px;
+    outline: none;
+}
+
+#choosePlatform {
+    display: none;
+}
+
+.submitButton {
+    position: absolute;
+    height: 15%;
+    top: 49.5%;
+    left: 67.9%;
+    border: none;
+    width: 8.5%;
+    background: black;
+    color: white;
+    font-family: 'Burbank';
+    font-size: 40px;
+}
+
+.block-left {
+    position: absolute;
+    width: 12.5%;
+    height: 90%;
+    background: #0452b4;
+    text-align: center;
+}
+
+.f, .o, .r, .t, .n, .i, .t, .e {
+    font-family: 'Burbank';
+    margin-top: 20px;
+    font-size: 84px;
+    color: white;
+}
+
+.block-right {
+    float: right;
+    width: 12.6%;
+    height: 900px;
+    background: #0452b4;
+    text-align: center;
+}
+
+#copyright {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 55px;
+    font-size: 16px;
+}
+
+.statistic {
+    position: relative;
+    width: 75%;
+    height: 337px;
+    margin-left: 12.5%;
+    margin-top: 11.5%;
+    display: grid;
+}
+
+.statistic-all {
+    position: fixed;
+    display: block;
+    height: 18%;
+    width: 50%;
+    margin-left: 12%;
+    margin-top: 2%;
+    background: blue;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.statistic-all-ul {
+    position: relative;
+    display: flex;
+    color: white;
+    height: 40%;
+    background: blue;
+    padding-bottom: 1%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.statistic-all-ul>li {
+    width: auto;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: 10rem;
+    font-family: 'Burbank';
+    font-size: 32px;
+    margin-top: 2%;
+}
+
+.statistic-all-ul-values {
+    width: auto;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: 11rem;
+    font-family: 'Burbank';
+    font-size: 32px;
+    margin-top: 1%;
+    margin-bottom: -50%;
+}
+
+.statistic-all-ul-values>li {
+    width: auto;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    padding-right: 13rem;
+    font-family: 'Burbank';
+    font-size: 32px;
+    color: white;
+}
+
+.statistic-gamemodes {
+    position: absolute;
+    width: 85%;
+    left: 6.5%;
+    top: 45%;
+    height: 54.5%;;
+    border: 1px solid red;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 92%;
+    background: rgb(208, 212, 211);
+}
+
+@font-face {
+    font-family: 'Burbank';
+    src: url('/burbank-big-condensed-black.otf');
+  }
+
+@media only screen and (max-width: 1366px) {
+    .f, .o, .r, .t, .n, .i, .t, .e {
+        font-size: 40px;
+    }
+
+    .stats-search {
+        left: -2%;
+        top: -10%;
+    }
+
+    #servicesMenu {
+        margin-left: 78%;
+    }
+
+    .nicknameInput {
+        height: 20%;
+    }
+
+    .mainInputLabel {
+        left: 31%;
+    }
+
+    .submitButton {
+        height: 20.5%;
+        top: 54.5%;
+        left: 70%;
+    }
+
+    .selectPlatform {
+        height: 20.5%;
+        top: 54.5%;
+        left: 57%;
+    }
+
+    #copyright {
+        margin-top: 1%;
+    }
+
+}
+
+@media only screen and (max-width:1360px) {
+    .submitButton {
+        top: 54%;
+        left: 68.5%;
+    }
+
+    .selectPlatform {
+        top: 54%;
+        left: 56%;
+    }
+}
+
+@media only screen and (max-width:1326px) {
+    .f, .o, .r, .t, .n, .i, .t, .e {
+        font-size: 32px;
+    } 
+
+    .submitButton, .selectPlatform {
+        top: 61.5%;
+        height: 20.5%;
+    }
+
+}
+
+@media only screen and (max-width:1280px) {
+    .nicknameInput {
+        font-size: 22px;
+    }
+
+    .submitButton {
+        top: 51%;
+        left: 69%;
+    }
+
+    .selectPlatform {
+        top: 51%;
+        left: 55%;
+    }
+}

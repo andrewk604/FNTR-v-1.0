@@ -24,19 +24,21 @@
         </div>
     </nav>
 
+    <div id="servicesMenu" onclick="menuHide()">
+        <li id="serviceLink"><a href="#">Shop</a></li>
+        <li id="serviceLink"><a href="#">History</a></li>
+        <li id="serviceLink"><a href="#">Challenges</a></li>
+    </div>
+
     <div class="main">
-        <span id="servicesMenu" onclick="menuHide()">
-            <li id="serviceLink"><a href="#">Shop</a></li>
-            <li id="serviceLink"><a href="#">History</a></li>
-            <li id="serviceLink"><a href="#">Challenges</a></li>
-        </span>
+
 
         <div class="stats-search">
             <label for="nicknameInput" class="mainInputLabel">CHECK YOUR FORTNITE STATS</label>
             <input type="text" class="nicknameInput" placeholder="Enter your EPIC nickname..." id="gamertag">
             <div class="button">
-            <button class="submitButton">G0</button>
-        </div>
+                <button class="submitButton">G0</button>
+            </div>
             <div class="selectPlatform">
                 <select class="custom-select" id="platform">
                     <option selected id="choosePlatform">Choose Platform</option>
@@ -71,6 +73,32 @@
         <div class="e">E</div>
     </div>
 
+    <div class="statistic">
+        <div class="statistic-all">
+            <ul class="statistic-all-ul">
+                <li>Kills</li>
+                <li>Wins</li>
+                <li>K/D</li>
+            </ul>
+            <ul class="statistic-all-ul-values">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </div>
+        <div class="statistic-gamemodes">
+            <div class="statistic-solo">
+
+            </div>
+            <div class="statistic-duo">
+
+            </div>
+            <div class="statistic-squads">
+
+            </div>
+        </div>
+    </div>
+
     <div class="footer">
         <p id="copyright">&copy; Copyright 2020</p>
         <div class="icons"></div>
@@ -83,6 +111,7 @@
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
     <script src="js/app.js"></script>
+    <script src="/js/functions.js"></script>
 </body>
 
 </html>
